@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "target/index.js",
+  "author": "Zsuzsi Hudacsko <zsuzsi.hudacsko@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "./node_modules/nodemon/bin/nodemon.js",
+    "server": "node build/index.js"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^2.0.0",
+    "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^5.0.1",
+    "@types/koa-multer": "^1.0.0",
+    "@types/koa-router": "^7.0.30",
+    "@types/node": "^10.5.2",
+    "bcrypt": "^2.0.1",
+    "jsonwebtoken": "^8.2.2",
+    "kcors": "^2.2.1",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.18.3",
+    "pg": "^7.4.3",
+    "routing-controllers": "^0.7.7",
+    "ts-node": "^7.0.0",
+    "typeorm": "^0.2.7",
+    "typescript": "^2.9.2"
+  }
+}
